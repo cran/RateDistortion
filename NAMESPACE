@@ -1,0 +1,15 @@
+importFrom("stats", "rmultinom", "uniroot")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")
+
+export(
+    "BlahutAlgorithm",
+    "MaximumCost",
+    "FindOptimalChannel",
+    "FindRate",
+    "ChannelDistortion",
+    "MutualInformation",
+    "ConditionalDistribution",
+    "Sample",
+    "DifferenceDistribution")
+
+S3method(print, channel)
